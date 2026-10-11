@@ -1,0 +1,16 @@
+# Raw NFL / PFF tracking and scouting data (do not commit without redistribution rights)
+data/
+*.csv
+!example_evaluation_*.csv
+
+# Local virtual environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+
+# Generated replay HTML, frame images, and runtime outputs
+qb_pressure_outputs/
+frames_cache/
